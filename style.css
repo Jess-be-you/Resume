@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: rgb(235, 239, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1000px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 30px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container .left_side {
+    position: relative;
+    background: rgb(129, 129, 156);
+    padding: 20px;
+}
+
+.container .right_side {
+    margin: 0;
+    position: relative;
+    background: white;
+    padding: 10px;
+}
+
+.profiletext h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: solid;
+    font-size: 30px;
+    text-align: center;
+}
+
+.profiletext span {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.contact {
+    padding: 10px;
+}
+
+.title {
+    color: rgb(13, 29, 91);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.contact ul {
+    position: relative;
+}
+
+.contact ul li {
+    padding: 5px;
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+}
+
+.contact ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+}
+
+.contact ul li span.text {
+    font-size: 15px;
+}
+
+.education {
+    padding: 10px;
+}
+
+.education ul {
+    position: relative;
+}
+
+.education ul li {
+    padding: 10px;
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+}
+
+.skill {
+    color: rgb(13, 29, 91);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.container .right_side {
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.blocks {
+    text-align: right;
+    color: rgb(169, 157, 157);
+}
+
+.html {
+    width: 90%;
+    background-color: #0e3c61;
+}
+
+.css {
+    width: 90%;
+    background-color: #0e3c61;
+}
+
+.js {
+    width: 80%;
+    background-color: #0e3c61;
+}
+
+.c {
+    width: 90%;
+    background-color: #0e3c61;
+}
+
+.py {
+    width: 70%;
+    background-color: #0e3c61;
+}
+
+.bs {
+    width: 70%;
+    background-color: #0e3c61;
+}
+
+.jq {
+    width: 70%;
+    background-color: #0e3c61;
+}
+
+.react {
+    width: 80%;
+    background-color: #0e3c61;
+}
+
+.flutter {
+    width: 60%;
+    background-color: #0e3c61;
+}
+
+.para1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.prog {
+    padding: 10px;
+}
+
